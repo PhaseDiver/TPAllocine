@@ -1,0 +1,33 @@
+<?php
+
+namespace App\DataFixtures;
+use App\Entity\Ville;
+use Doctrine\Bundle\FixturesBundle\Fixture;
+use Doctrine\Common\Persistence\ObjectManager;
+
+class AppFixtures extends Fixture
+{
+    public function load(ObjectManager $manager)
+    {
+        // $product = new Product();
+        // $manager->persist($product);
+    	foreach ($this->getVille() as [$nom]) {
+    		$ville = new Ville();
+    		$ville 
+    		->setNom($nom)
+    		;
+    	
+    	$manager->persist($ville);
+        $reference = $this->addReference($ville);
+        $manager->flush();
+    }
+
+    private function getVille():array{
+
+    	return [
+			['Brest'],
+			['Quimper'],
+			['Nantes']
+		];
+    }
+}
