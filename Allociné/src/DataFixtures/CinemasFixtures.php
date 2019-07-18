@@ -9,14 +9,14 @@ use Doctrine\Common\Persistence\ObjectManager;
 
 
 
-class CinemaFixtures extends Fixture
+class CinemasFixtures extends Fixture
 {
     public function load(ObjectManager $manager)
     {
          // creation d'une liste avec les genres  
         $InfosCinema=  [
             ['Studios', '136 Rue Jean Jaurès, 29200',null,$this->getReference('Brest')],
-            ['Cinéma le Concorcode',' 79 Boulevard de lÉgalité 44100',null,$this->getReference('Nantes')]
+            ['Pathé Grenoble','21 Boulevard Maréchal Lyautey,38000',null,$this->getReference('Grenoble')]
         ];
         foreach( $Cinemas as $InfosCinema)
         {

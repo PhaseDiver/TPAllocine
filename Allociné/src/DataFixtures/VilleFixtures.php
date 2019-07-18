@@ -31,8 +31,11 @@ class VilleFixtures extends Fixture
 
     	return [ 
             ['Brest','Studios'],
-			['Nantes','Cinéma le Concorcode'],
-			['Quimper','TBA']
+			['Grenoble','Pathé Grenoble'],
+			['Quimper','TBA'],
+            ['Marseille','Pathé Madeleine'],
+            ['Paris','Le Grand Rex'],
+            ['Tours','Cinéma CGR Tours Centre']
 		];
     }
 
