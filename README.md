@@ -51,3 +51,10 @@ D'abord  Films -> Acteurs -> Cinémas-> Ville -> Genre
 
 
 #Prochiane étape  paramétrage interface graphique avec twig et easy admin.
+
+
+#commande pour generer un controlleur 
+php bin/console make:controller ControllerName
+
+# Controller Ville et ses templates sont en cours 
+
