@@ -67,7 +67,8 @@ php bin/console make:controller ControllerName
 #Le controller de ville est fait toutefois je n'utilise que une seule des méthodes codés.
 #partie graphique a retravailler car pas de css , donc l'affichage estsous forme d' une simple liste 
 
-![image test][Captures_Villes.PNG]
+![Capture_Villes](https://user-images.githubusercontent.com/23719686/61573316-b76d4800-aaac-11e9-9c87-09bd5873682b.PNG)
+
 
 
 #database crée nom  allociné , la configuration se trouve dans le .env
