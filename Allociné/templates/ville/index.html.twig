@@ -3,13 +3,12 @@
 
 {% block title %}Ville index{% endblock %}
 
-	{%block body %}
-
+{% block body %}
 		<h1> Liste des Villes</h1>
 			<table>
 				<thead>
 					<tr>
-				<!-- On appelle les paramètres de l'entité ville -->
+				{# On appelle les paramètres de l'entité ville #}
 					<th>Id</th>
 					<th>nom</th>
 				</tr>
@@ -24,6 +23,7 @@
 			  		<tr>
 			  			<td> aucune villes n'as étés trouvées</td>
 			  	</tr>
-			  {% endfor %}
+			  	{% endfor %}
 			</tbody>
 		</table>
+{% endblock %}

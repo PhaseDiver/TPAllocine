@@ -14,6 +14,7 @@
 
 #composer require symfony/web-server-bundle --dev
 
+#composer require symfony/twig-bundle
 
 
 # Relations entres les différentes entités 
@@ -58,3 +59,17 @@ php bin/console make:controller ControllerName
 
 # Controller Ville et ses templates sont en cours 
 
+
+
+
+#changements dernier commit 
+
+#Le controller de ville est fait toutefois je n'utilise que une seule des méthodes codés.
+# partie graphique a retravailler car pas de css , donc l'affichage estsous forme d' une simple liste 
+
+![image test][Captures_Villes.png]
+
+
+#database crée nom  allociné , la configuration se trouve dans le .env
+
+#migration faites 
