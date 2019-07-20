@@ -57,7 +57,7 @@ D'abord  Films -> Acteurs -> Cinémas-> Ville -> Genre
 #commande pour generer un controlleur 
 php bin/console make:controller ControllerName
 
-# Controller Ville et ses templates sont en cours 
+# Commit  4 Controller ville et ses templates ont été ajoutés 
 
 
 
