@@ -65,9 +65,9 @@ php bin/console make:controller ControllerName
 #changements dernier commit 
 
 #Le controller de ville est fait toutefois je n'utilise que une seule des méthodes codés.
-# partie graphique a retravailler car pas de css , donc l'affichage estsous forme d' une simple liste 
+#partie graphique a retravailler car pas de css , donc l'affichage estsous forme d' une simple liste 
 
-![image test][Captures_Villes.png]
+![image test][Allociné/Captures_Villes.PNG]
 
 
 #database crée nom  allociné , la configuration se trouve dans le .env
